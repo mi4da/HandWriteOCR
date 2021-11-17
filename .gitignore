@@ -1,0 +1,51 @@
+# 基础控制
+## 忽略编辑器文件
+**/.idea
+**/__pycache__
+
+# 编译文件
+*.pyc
+
+## 忽略所有nohop文件
+*.out
+
+## 忽略jupyter notebook 文件
+**/.ipynb_checkpoints
+
+## 忽略所有的PDF、word、excel、ppt文件，有需要请git add -f filename 提交
+*.pdf
+*.PDF
+*.xls
+*.xlsx
+*.doc
+*.docx
+*.ppt
+*.pptx
+
+## 忽略所有压缩文件，有需要请git add -f filename 提交
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+*.tgz
+
+## 忽略所有音频、视频文件, 有需要请git add -f filename 提交
+*.mp3
+*.mp4
+*.wav
+*.avi
+
+## 忽略所有图片文件
+*.jpg
+*.png
+*.jpeg
+*.gif
+
+# 特殊控制
+训练集
+测试集
+__MACOSX
+log
+dataset
+
